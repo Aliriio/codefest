@@ -1,0 +1,125 @@
+/*Fuentes de google*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*Estilos de la pagina*/
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 80px;
+/*    background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header img{
+    width: 218px;
+    height: 93px;
+}
+nav{
+
+}
+nav ul{
+    display: inline-flex;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/*Estilos para la sección principal*/
+
+#main-container{
+    width: 90%;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 5%;
+    height: 700px;
+}
+
+#main-container .info{
+    width: 40%;
+    height: 100%;
+}
+
+#main-container .info h1{
+    /*font-size: 80px;
+    margin-top: 40px;*/
+    text-transform: none;
+    font-family: arial;
+    /*text-transform: capitalize;*/
+    color:rgb(133, 61, 143);
+    -webkit-text-stroke-color: rgb(136, 20, 20);
+}
+
+#main-container .info p{
+    font-size: 20px;
+    padding-top: 40px;
+    color: rgb(170, 170, 170);
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-container .info button{
+    margin-top: 80px;
+    padding: 15px 25px;
+    background-color: rgb(106, 165, 200);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.25s;
+}
+
+#main-container .info button:hover{
+    background-color: antiquewhite;
+    color: rgb(90, 175, 210);
+    box-shadow: 10px 10px 10px 0px rgb(255, 255, 255);
+    transition: all 0.25;
+}
+
+
+#main-container .illustation img{
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 10px auto;
+}
+
+@media(max-width: 1200px){
+    header img{
+        display: block;
+        margin: auto;
+        width: 218px;
+        height: 93px;
+    }
+    nav {
+        margin: auto;
+    }
+    #main-container{
+        display: block;
+    }
+    #main-container .info{
+        width: 90%;
+        height: auto;
+        padding-bottom: 50x;
+    }
+    #main-container .illustation{
+        width: 90;
+        height: auto;
+    }
+}
+
