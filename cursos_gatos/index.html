@@ -1,0 +1,229 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #F4F6F8;
+    }
+
+    nav-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-bottom: solid 1px #ffa3e0;
+      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+      padding: 5px 30px;
+      min-height: 80px;
+      background-color: white;
+      color: #f25cc1;
+    }
+
+    nav:hover {
+      color: #c43997;
+    }
+
+    .logo {
+      height: 60px;
+      width: 60px;
+      margin-right: 8px;
+      border-radius: 50%;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-self: center;
+      justify-content: space-around;
+      flex-grow: 1;
+      width: 100vw;
+      padding: 16px;
+      padding-bottom: 40px;
+    }
+
+    footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      margin-top: 30px;
+      height: 200px;
+      padding: 20px;
+      background-color: white;
+      border-top: solid 1px #ffa3e0;
+      background: rgb(24,9,121);
+background: linear-gradient(90deg, rgba(24,9,121,1) 7%, rgba(0,90,113,1) 100%);
+    }
+
+    article {
+      border-radius: 6px;
+      color: #191C23;
+      background-size: cover;
+      background-color: #eee;
+      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+      background-position: center;
+      justify-content: space-between;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    article:hover {
+      background-color: #ffe6f7;
+    }
+
+    @media (min-width: 480px) {
+      article {
+        width: 90%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      article {
+        width: 47%;
+      }
+    }
+
+    @media (min-width: 992px) {
+      article {
+        width: 31%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- nav -->
+  <div class="nav-container">
+    <nav>
+      <img src="https://img.freepik.com/fotos-premium/imagen-abstracta-gato-espacial-cielo-nocturno-espacio-galaxia-planetas-estrellas_656098-476.jpg" class="logo">
+      <div class="title">
+        <h3>Catgrammers</h3>
+        <h5>Exclusive courses</h5>
+      </div>
+    </nav>
+  </div>
+  <!-- End nav -->
+
+  <!-- Main content -->
+  <main>
+
+  <!-- Completa cada curso, hazlo bonito 😺-->
+
+    <!-- Primer curso -->
+    <article class="card">
+      <h3 class="card-title">
+        Astro Kitty, Space Explorer
+      </h3>
+      <div class="gallery">
+        <div class="course">
+            <img class="img-n" src="https://cdn.pixabay.com/photo/2023/04/23/16/13/ai-7946082_1280.jpg">
+            <h2 class="course-title">Roadmap to travel to space</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div>
+        <div class="course">
+            <img class="img-n" src="https://i.pinimg.com/originals/3a/1a/30/3a1a30fec8a666c37e934a8c1e763e36.jpg">
+            <h2 class="course-title">be a master of the space</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div>
+        <div class="course">
+            <img class="img-n" src="https://media.istockphoto.com/id/1327278135/es/vector/en-busca-de-supervivientes.jpg?s=612x612&w=0&k=20&c=Pylk95ncu9PM3JkeEaE9GVG8As0HDAzoh9PkhCqjE1Y=">
+            <h2 class="course-title">How to drive a rocket</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Segundo curso -->
+    <article class="card">
+      <h3 class="card-title">
+        Cat-strophysics, master class
+      </h3>
+      <div class="gallery">        
+        <div class="course">
+            <img class="img-n" src="https://uvn-brightspot.s3.amazonaws.com/assets/vixes/btg/gato_en_laboratorio.jpg">
+            <h2 class="course-title">Curso de química avanzada</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div>
+        <div class="course">
+            <img class="img-n" src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/YWFTB7DDIBAQZCWJKMWBT3LFFA.jpg">
+            <h2 class="course-title">Cómo volar</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div><div class="course">
+            <img class="img-n" src="https://gatosyrespeto.files.wordpress.com/2020/05/2.jpg?w=480&h=330">
+            <h2 class="course-title">Leyes de Cawton</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div>
+    </div>
+    </article>
+
+    <!-- Tercer curso -->
+    <article class="card">
+      <h3 class="card-title">
+        Crew Dragon, kitty edition
+      </h3>
+      <div class="gallery">
+        <div class="course">
+            <img class="img-n" src="https://i.pinimg.com/564x/92/aa/22/92aa22e19329dfc11b85754589d50bba.jpg">
+            <h2 class="course-title">Curso de química avanzada</h2>
+            <button class="course-btn">Cómo ser majestuoso</button>
+        </div>
+        <div class="course">
+            <img class="img-n" src="https://img.freepik.com/fotos-premium/pequeno-gato-dragon-ojos-amarillos-sienta-cuatro-patas-escalas-animales-magicos-lagarto-monstruo-fantasia-que-respira-fuego-arte-alta-resolucion-inteligencia-artificial-generativa_855332-141.jpg">
+            <h2 class="course-title">El secreto de ser dorado</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div>
+        <div class="course">
+            <img class="img-n" src="https://static.wikia.nocookie.net/dragoncity/images/5/5b/Gato_1.png/revision/latest?cb=20131129151348&path-prefix=es">
+            <h2 class="course-title">Curso de dibujo de gatosaurios</h2>
+            <button class="course-btn">Obtener curso</button>
+        </div>
+        
+      </div>
+    </article>
+
+  </main>
+
+  <footer>2021 © Apollo</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+.card-title {
+    /*TITULO*/
+    text-align: center;
+    color: #555;
+    font-family: calibri;
+  }
+  
+  .card {
+    /*CARD*/
+    padding: 10px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .img-n {
+    display: block;
+    width: 90%;
+    max-width: 280px;
+    border-radius: 5px;
+    height: auto;
+    margin: auto;
+  }
+
+  .course-title {
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    margin-top: 5px;
+    max-width: 280px;
+  }
+
+  .course {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .course-btn {
+    display: block;
+    margin: auto;
+    background-color: #09f;
+    color: #fff;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 3px;
+    width: 93%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .course-btn:hover {
+    background: #07c;
+  }
